@@ -1,0 +1,17 @@
+body {
+    background-color: #1e1e1e;
+}
+
+.grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.container_new {
+    max-width: 200px;
+}
+
+@media(min-width:768px) {
+    .container_new {
+        max-width: 400px;
+    }
+}
